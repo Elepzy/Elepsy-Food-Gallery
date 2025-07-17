@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Elepsy Restaurant </title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="shortcut icon" href="./image/spoon-and-fork.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./image/icons8-restaurant-64.png" type="image/x-icon">
 </head>
 <body class="bg-gradient-to-tr from-gray-300 via-red-100 to-blue-400 min-h-screen flex flex-col">
   <a id="home"></a>
-  <header class="bg-white/80 shadow-md py-6 px-8 flex justify-between items-center">
+  <header class="bg-white/80 shadow-md py-4 px-8 flex justify-between items-center">
     <h1 class="text-4xl font-extrabold text-yellow-600 tracking-wider drop-shadow">Elepsy Restaurant</h1>
     <nav>
       <ul class="flex space-x-8 text-lg font-semibold">
@@ -111,19 +111,6 @@
     closeModal.addEventListener('click', () => {
       orderModal.classList.add('hidden');
     });
-    // Optional: close modal on outside click
-    // orderModal.addEventListener('click', (e) => {
-    //   if (e.target === orderModal) orderModal.classList.add('hidden');
-    // });
-
-    // Toggle menu section visibility
-    // const menuBtn = document.querySelector('a[href="#menu"]');
-    // const menuSection = document.getElementById('menu');
-    // menuBtn.addEventListener('click', function(e) {
-    //   e.preventDefault();
-    //   menuSection.classList.toggle('hidden');
-    //   menuSection.scrollIntoView({ behavior: 'smooth' });
-    // });
   </script>
   <footer class="bg-white/80 py-4 text-center text-gray-500 text-sm mt-12 shadow-inner">
     &copy; 2025 Elepsy Resturant. All rights reserved.
